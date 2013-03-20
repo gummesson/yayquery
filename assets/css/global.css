@@ -1,0 +1,23 @@
+/*================
+    global.css
+================*/
+
+/* Container */
+
+.container {
+  margin: 0 auto;
+  padding: 0 1.5em;
+  max-width: 720px;
+}
+
+/*--------------
+   scroll.js
+--------------*/
+
+/* Remove the margin in favor for padding so that the scrolling
+ * lands a bit "higher up" on the target. */
+
+#top {
+  margin-top: 0;
+  padding-top: 1em;
+}
