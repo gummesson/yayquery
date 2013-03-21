@@ -2,12 +2,20 @@
     global.css
 ================*/
 
-/* Container */
+/* General container */
 
 .container {
   margin: 0 auto;
   padding: 0 1.5em;
   max-width: 720px;
+}
+
+/* Remove generic list styles */
+
+.dropdown,
+.slideshow {
+  padding: 0;
+  list-style: none;
 }
 
 /*--------------
@@ -27,19 +35,25 @@
 ----------------*/
 
 .dropdown {
-  padding: 0;
-  list-style: none;
   max-width: 240px;
   background-color: #ccc;
   border-radius: 4px;
 }
 
-.dropdown-toggle,
-.dropdown-item {
-  padding: 8px 0;
-  text-align: center;
+  .dropdown-toggle,
+  .dropdown-item {
+    padding: 8px 0;
+    text-align: center;
+  }
+
+/*-----------------
+   slideshow.js
+-----------------*/
+
+.slideshow {
+  position: relative;
 }
 
-.dropdown-item {
-  display: none;
-}
+  .slideshow-item {
+    position: absolute;
+  }
