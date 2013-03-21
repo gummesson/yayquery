@@ -21,3 +21,25 @@
   margin-top: 0;
   padding-top: 1em;
 }
+
+/*----------------
+   dropdown.js
+----------------*/
+
+.dropdown {
+  padding: 0;
+  list-style: none;
+  max-width: 240px;
+  background-color: #ccc;
+  border-radius: 4px;
+}
+
+.dropdown-toggle,
+.dropdown-item {
+  padding: 8px 0;
+  text-align: center;
+}
+
+.dropdown-item {
+  display: none;
+}
