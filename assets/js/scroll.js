@@ -1,17 +1,17 @@
 $(document).ready(function() {
 
-  var page, speed, target;
+  var pageBody, scrollSpeed, idTarget;
 
-  page  = $("html, body");
-  speed = "slow";
+  pageBody    = $("html, body");
+  scrollSpeed = "slow";
 
   $(".scroll").click(function(){
 
-    target = $(this).attr("href");
+    idTarget = $(this).attr("href");
 
-    page.animate({
-      scrollTop: $(target).offset().top
-    }, speed);
+    pageBody.animate({
+      scrollTop: $(idTarget).offset().top
+    }, scrollSpeed);
 
     return false;
 

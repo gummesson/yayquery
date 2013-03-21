@@ -1,15 +1,17 @@
 $(document).ready(function() {
- 
-  var speed = 600;
+
+  $(".dropdown-item").hide();
+
+  var slideSpeed = 600;
 
   $(".dropdown-toggle").click(function() {
 
     if ($(".dropdown-item").is(":hidden")) {
-      $(".dropdown-item").slideDown(speed);
+      $(".dropdown-item").slideDown(slideSpeed);
     }
 
     else {
-      $(".dropdown-item").slideUp(speed);
+      $(".dropdown-item").slideUp(slideSpeed);
     }
 
   });
