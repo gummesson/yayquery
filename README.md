@@ -4,7 +4,7 @@ A repo consisting of various learning experiments with [jQuery](http://jquery.co
 
 ## Preface
 
-The code is probable full of errors and not pretty.
+The code is probable full of errors and not pretty. This repo is all function over form.
 
 ## License
 

@@ -1,0 +1,19 @@
+!!! 5
+%html{:lang => "en"}
+  %head
+    %meta{:charset => "UTF-8"}
+    %title yayQuery: Slideshow
+    %link{:href => "../assets/css/normalize.css", :rel => "stylesheet"}
+    %link{:href => "../assets/css/global.css", :rel => "stylesheet"}
+    %script{:src => "http://code.jquery.com/jquery-1.9.1.min.js"}
+    %script{:src => "../assets/js/slideshow.js"}
+  %body
+    .container
+      %h1 Slideshow
+      %ul.slideshow
+        %li.slideshow-item
+          %img{:src => "../assets/img/slide1.png"}
+        %li.slideshow-item
+          %img{:src => "../assets/img/slide2.png"}
+        %li.slideshow-item
+          %img{:src => "../assets/img/slide3.png"}
