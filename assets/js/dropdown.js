@@ -1,8 +1,8 @@
 $(document).ready(function() {
 
-  $(".dropdown-item").hide();
-
   var slideSpeed = 600;
+
+  $(".dropdown-item").hide();
 
   $(".dropdown-toggle").click(function() {
 
