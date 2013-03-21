@@ -1,6 +1,10 @@
-#yayQuery
+# yayQuery
 
 A repo consisting of various learning experiments with [jQuery](http://jquery.com/ "jQuery").
+
+## Preface
+
+The code is probable full of errors and not pretty.
 
 ## License
 
