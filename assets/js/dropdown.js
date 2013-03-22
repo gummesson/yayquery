@@ -6,13 +6,7 @@ $(document).ready(function() {
 
   $(".dropdown-toggle").click(function() {
 
-    if ($(".dropdown-item").is(":hidden")) {
-      $(".dropdown-item").slideDown(slideSpeed);
-    }
-
-    else {
-      $(".dropdown-item").slideUp(slideSpeed);
-    }
+    $(".dropdown-item").slideToggle(slideSpeed);
 
   });
 
