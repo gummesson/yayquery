@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+  "use strict";
+
   var slideSpeed, fadeSpeed;
 
   slideSpeed = 4000;

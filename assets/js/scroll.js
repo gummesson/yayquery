@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+  "use strict";
+
   var pageBody, scrollSpeed, idTarget;
 
   pageBody    = $("html, body");
