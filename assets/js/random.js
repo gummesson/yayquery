@@ -11,7 +11,9 @@ $(document).ready(function() {
   $(".result").append(linkRandom);
 
   $(".reload").click(function() {
+
     location.reload();
+
   });
 
 });
