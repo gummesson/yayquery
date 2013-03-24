@@ -2,14 +2,12 @@ $(document).ready(function() {
 
   "use strict";
 
-  var pageBody, scrollSpeed, idTarget;
-
-  pageBody    = $("html, body");
-  scrollSpeed = "slow";
+  var pageBody    = $("html, body"),
+      scrollSpeed = "slow";
 
   $(".scroll").click(function(){
 
-    idTarget = $(this).attr("href");
+    var idTarget = $(this).attr("href");
 
     pageBody.animate({
       scrollTop: $(idTarget).offset().top

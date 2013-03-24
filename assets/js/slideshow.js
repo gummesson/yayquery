@@ -2,10 +2,8 @@ $(document).ready(function() {
 
   "use strict";
 
-  var slideSpeed, fadeSpeed;
-
-  slideSpeed = 4000;
-  fadeSpeed  = 2000;
+  var slideSpeed = 4000,
+      fadeSpeed  = 2000;
 
   $(".slideshow-item:gt(0)").hide();
 
