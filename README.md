@@ -1,6 +1,6 @@
 # yayQuery
 
-A repo consisting of various learning experiments with [jQuery](http://jquery.com/ "jQuery").
+A repo consisting of various learning experiments with [jQuery](http://jquery.com/ "jQuery") and Javascript.
 
 ## Preface
 
