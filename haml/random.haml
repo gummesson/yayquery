@@ -1,0 +1,19 @@
+!!! 5
+%html{:lang => "en"}
+  %head
+    %meta{:charset => "UTF-8"}
+    %title yayQuery: Random
+    %link{:href => "../assets/css/normalize.css", :rel => "stylesheet"}
+    %link{:href => "../assets/css/global.css", :rel => "stylesheet"}
+    %script{:src => "http://code.jquery.com/jquery-1.9.1.min.js"}
+    %script{:src => "../assets/js/random.js"}
+  %body
+    .container
+      %h1 Random
+      %a.reload{:href => "#"} Reload
+      .links
+        %a.item{:href => "#"} http://www.example.com/
+        %a.item{:href => "#"} http://www.anotherexample.com/
+        %a.item{:href => "#"} http://www.yetanotherexample.com/
+        %a.item{:href => "#"} http://www.yetyetanotherexample.com/
+      %p.result
