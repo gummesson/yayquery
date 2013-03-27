@@ -4,7 +4,7 @@ $(document).ready(function() {
 
   $(".links").hide();
 
-  var linkList   = $(".item").toArray(),
+  var linkList   = $(".item"),
       linkItems  = linkList.length,
       linkRandom = linkList[Math.floor(Math.random() * linkItems)];
 
