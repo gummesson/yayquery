@@ -1,19 +1,17 @@
 $(document).ready(function() {
 
-  "use strict";
+  'use strict';
 
-  $(".links").hide();
+  $('.links').hide();
 
-  var linkList   = $(".item"),
-      linkItems  = linkList.length,
+  var linkList  = $('.item'),
+      linkItems = linkList.length,
       linkRandom = linkList[Math.floor(Math.random() * linkItems)];
 
-  $(".result").append(linkRandom);
+  $('.result').append(linkRandom);
 
-  $(".reload").click(function() {
-
+  $('.reload').click(function() {
     location.reload();
-
   });
 
 });
